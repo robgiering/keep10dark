@@ -1,0 +1,6 @@
+id=keepqdark
+name=Keep Q Dark
+version=v1
+versionCode=1
+author=robgiering
+description=Keep override dark-mode enabled after reboot on Android Q.
