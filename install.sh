@@ -120,7 +120,7 @@ REPLACE="
 ##########################################################################################
 
 # Set what you want to display when installing your module
-$API -eq 29 ] || abort "This module requires Android Q. Aborting!"
+[ $API -eq 29 ] || abort "This module requires Android Q. Aborting!"
 
 print_modname() {
   ui_print "*******************************"
