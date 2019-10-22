@@ -120,11 +120,11 @@ REPLACE="
 ##########################################################################################
 
 # Set what you want to display when installing your module
-[ $API -eq 29 ] || abort "This module requires Android Q. Aborting!"
+
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "   Q Beta Keep Dark Mode  "
+  ui_print "       Keep Android 10 Dark         "
   ui_print "*******************************"
 }
 
